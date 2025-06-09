@@ -57,22 +57,26 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
-┏━━━━━━━━━━━━━━
-┃𝐓𝐈𝐌𝐍𝐀𝐒𝐀-𝐌𝐃 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐒 
-┃𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇𝙇𝙔
-┃𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘿 🖐😎
-┗━━━━━━━━━━━━━━━
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = ✰𝐓𝐈𝐌𝐍𝐀𝐒𝐀 𝐓𝐄𝐂𝐇 ✰
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || WhattsApp Channel = https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-Chat me 👉 https://wa.me/255759635837
-𝕋ℍ𝕀𝕊 𝕀𝕊 𝕋𝕀𝕄ℕ𝔸𝕊𝔸-𝕋𝕄𝔻-ℕ𝔼𝕎-𝕌ℙ𝔻𝔸𝕋𝔼 2025
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*2025-2026 𝗧𝗜𝗠𝗡𝗔𝗦𝗔-𝐅𝐑𝐎𝐌-𝗗𝗘𝗧𝗘𝗦𝗧𝗘𝗗*
+╭─❖ 𓆩 🦋 𓆪 ❖─╮
+ 𝗠𝗨𝗟𝗧𝗜 𝗗𝗘𝗩𝗜𝗖𝗘
+╰─❖ 𓆩 🦋 𓆪 ❖─╯  
+HACKLINK-XMD ᴅᴇᴠɪᴄᴇ sᴜᴄᴄᴇssғᴜʟ ᴄᴏɴɴᴇᴄᴛᴇᴅ
 
-_Don't Forget To Give Star To My Repo_`
+════════════════════
+Developer Resources
+GitHub link: github.com/VENGEANCE254/HACKLINK-XMD 
+Channel link: https://whatsapp.com/channel/0029VbAVuiVBPzjdU7EVNw0t
+╭─❖••• 𓆩  𓆪••• ❖─╮
+ Don't forget to
+ star & fork the repo!
+╰─❖ •••𓆩  𓆪••• ❖─╯  
+🌟 Don't forget to
+⭐ star & fork the repo!
+═════════
+═════════
+*l HELP YOU*
+💬 https://wa.me/message/254769677305
+════════════════════`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
  
 
@@ -95,3 +99,4 @@ _Don't Forget To Give Star To My Repo_`
     return await GIFTED_MD_PAIR_CODE()
 });
 module.exports = router
+                                           
